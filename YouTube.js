@@ -1,5 +1,4 @@
-// Successfully tested on YouTube and Chrome Developers Tools JavaScript Console
-
+// https://www.youtube.com/
 function adblock($x) {
 	// delete the scripts to avoid problems later when manipulating the DOM
 	$x("//script").forEach(e => e.remove());
