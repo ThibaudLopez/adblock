@@ -14,6 +14,7 @@ function adblock($x) {
 		e.loop = true;
 		e.play();
 	});
+	document.body.style.backgroundColor = 'black';
 }
 adblock($x);
 window.setTimeout(adblock, 10000, $x); // we must pass the Chrome developer tool's internal variable $x to the timeout because it doesn't exist in that future scope
